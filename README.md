@@ -52,3 +52,8 @@ Para probar la simulación del sistema de riego inteligente, sigue estos pasos:
     * **Esperar la detención automática:** Si no detienes el riego manualmente, se detendrá automáticamente después del tiempo configurado. Esto también se registrará en el historial.
     * **Visualizar el historial:** La sección "📋 Historial de Riego" mostrará todos los eventos de riego con su fecha, hora, ID y duración programada. El color del borde izquierdo indica si fue activado (verde) o detenido (rojo).
     * **Borrar registros:** Haz clic en el icono de la papelera (🗑️) junto a cada registro del historial para eliminarlo.
+
+
+## Estructura del Proyecto
+
+![image](https://github.com/user-attachments/assets/7c7c9755-4e15-4589-8e2e-b6d2f3b4d8d6)
