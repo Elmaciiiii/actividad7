@@ -24,26 +24,24 @@ Este proyecto consiste en el desarrollo de una interfaz web interactiva para sim
 
 Para probar la simulación del sistema de riego inteligente, sigue estos pasos:
 
-Para probar el generador de claves seguras para sistemas de riego, sigue estos pasos:
+1.  **Descargar el proyecto desde GitHub:**
+    * Ve a esta página: [https://github.com/Elmaciiiii/actividad7.git](https://github.com/Elmaciiiii/actividad7.git)
+    * Haz clic en el botón verde que dice "Code".
+    * Elige la opción "Download ZIP" y guarda el archivo en tu computadora.
 
-1. **Descargar el proyecto desde GitHub:**
-   * Ve a esta página: [https://github.com/Elmaciiiii/actividad-6.git](https://github.com/Elmaciiiii/actividad-6.git)
-   * Haz clic en el botón verde que dice "Code".
-   * Elige la opción "Download ZIP" y guarda el archivo en tu computadora.
+2.  **Extraer el archivo ZIP:**
+    * Busca el archivo ZIP que descargaste y haz clic derecho para extraer su contenido. Se creará una carpeta llamada `actividad7-main` o similar.
 
-2. **Extraer el archivo ZIP:**
-   * Busca el archivo ZIP que descargaste y haz clic derecho para extraer su contenido. Se creará una carpeta llamada `actividad-6-main` o similar.
+3.  **Abrir la carpeta del proyecto en Visual Studio Code:**
+    * Abre Visual Studio Code.
+    * Ve a "Archivo" (File) en la barra de menú y selecciona "Abrir Carpeta" (Open Folder).
+    * Navega hasta la carpeta que se creó al extraer el ZIP (`actividad7-main`) y selecciónala. Haz clic en "Seleccionar carpeta" o "Abrir".
 
-3. **Abrir la carpeta del proyecto en Visual Studio Code:**
-   * Abre Visual Studio Code.
-   * Ve a "Archivo" (File) en la barra de menú y selecciona "Abrir Carpeta" (Open Folder).
-   * Navega hasta la carpeta que se creó al extraer el ZIP (`actividad-6-main`) y selecciónala. Haz clic en "Seleccionar carpeta" o "Abrir".
-
-4. **Abrir `index.html` con Live Server:**
-   * **Asegúrate de tener instalada la extensión "Live Server" en Visual Studio Code.** Puedes buscarla en la sección de extensiones (el icono con cuatro cuadrados) y hacer clic en "Instalar".
-   * En el explorador de archivos de Visual Studio Code (a la izquierda), busca y abre el archivo llamado `index.html`.
-   * Haz clic derecho en cualquier parte del archivo `index.html` dentro del editor y selecciona la opción "Open with Live Server".
-   * La página del generador de claves se abrirá en tu navegador web. Live Server hará que la página se actualice automáticamente cuando hagas cambios en el código.
+4.  **Abrir `index.html` con Live Server:**
+    * **Asegúrate de tener instalada la extensión "Live Server" en Visual Studio Code.** Puedes buscarla en la sección de extensiones (el icono con cuatro cuadrados) y hacer clic en "Instalar".
+    * En el explorador de archivos de Visual Studio Code (a la izquierda), busca y abre el archivo llamado `index.html`.
+    * Haz clic derecho en cualquier parte del archivo `index.html` dentro del editor y selecciona la opción "Open with Live Server".
+    * La página del sistema de riego se abrirá en tu navegador web. Live Server hará que la página se actualice automáticamente cuando hagas cambios en el código.
 
 5.  **Interactuar con el sistema:**
     * **Configurar la duración:** En el campo "Regar por:", ingresa la cantidad de tiempo deseada y selecciona la unidad (segundos, minutos, horas) del menú desplegable.
@@ -54,5 +52,3 @@ Para probar el generador de claves seguras para sistemas de riego, sigue estos p
     * **Esperar la detención automática:** Si no detienes el riego manualmente, se detendrá automáticamente después del tiempo configurado. Esto también se registrará en el historial.
     * **Visualizar el historial:** La sección "📋 Historial de Riego" mostrará todos los eventos de riego con su fecha, hora, ID y duración programada. El color del borde izquierdo indica si fue activado (verde) o detenido (rojo).
     * **Borrar registros:** Haz clic en el icono de la papelera (🗑️) junto a cada registro del historial para eliminarlo.
-
-¡Disfruta probando la simulación de tu sistema de riego inteligente!
