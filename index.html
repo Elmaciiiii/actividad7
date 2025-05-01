@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sistema de Riego Inteligente</title>
+  <link rel="stylesheet" href="style.css" />
+  
+</head>
+<body>
+  <div id="confirmacion-detener" class="confirmacion-modal oculto">
+    <div class="confirmacion-contenido">
+      <h3>¿Detener el riego?</h3>
+      <p>¿Estás seguro de que quieres detener el riego antes de que termine el tiempo programado?</p>
+      <div class="confirmacion-botones">
+        <button id="confirmar-detener">Sí, detener</button>
+        <button id="cancelar-detener">No, continuar</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="overlay" class="overlay oculto"></div>
+
+  <div class="contenedor">
+    <h1>🌿 Sistema de Riego Inteligente</h1>
+
+    <div class="duracion-control">
+      <label for="duracion">Regar por:</label>
+      <input type="number" id="duracion" value="1" min="1">
+      <select id="unidad-tiempo">
+        <option value="s">segundos</option>
+        <option value="m">minutos</option>
+        <option value="h">horas</option>
+      </select>
+    </div>
+
+    <div class="botones">
+      <button id="activar">💧 Activar Riego</button>
+      <button id="detener" disabled>🛑 Detener Riego</button>
+    </div>
+
+    <div id="estado" class="estado">
+      Estado: <span class="inactivo">Inactivo</span>
+    </div>
+
+    <section id="registros">
+      <h2>📋 Historial de Riego</h2>
+      <div id="mensaje-no-registros" class="no-registros">
+        <span>📬</span>
+        <p>No hay registros disponibles<br>Activa el sistema de riego para comenzar a registrar la actividad.</p>
+      </div>
+      <ul id="lista-registros"></ul>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
